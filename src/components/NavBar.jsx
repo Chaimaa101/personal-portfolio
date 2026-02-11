@@ -90,7 +90,7 @@ const Navbar = () => {
           ))}
         </motion.div>
 
-        {/* Mobile button */}
+       
         <motion.button
           onClick={() => setIsMenuOpen((prev) => !prev)}
           className="md:hidden p-2 text-foreground z-50 justify-self-end"
@@ -105,7 +105,6 @@ const Navbar = () => {
           </motion.div>
         </motion.button>
 
-        {/* Mobile menu */}
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
@@ -114,7 +113,7 @@ const Navbar = () => {
               animate="visible"
               exit="exit"
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 bg-background/95 backdrop-blur-md flex flex-col items-center justify-center space-y-10 text-xl md:hidden"
+              className="fixed inset-0 bg-background/90 backdrop-blur-md flex flex-col items-center justify-center space-y-10 text-xl md:hidden"
             >
               {navItems.map((item) => (
                 <motion.a

@@ -62,13 +62,13 @@ const Hero = () => {
               variants={fadeUp}
               className="inline-block text-primary"
             >
-              Pedro
+              AFKIR
             </motion.span>{" "}
             <motion.span
               variants={fadeUp}
               className="inline-block text-gradient"
             >
-              Machado
+              Chaimaâ
             </motion.span>
           </h1>
 
@@ -77,12 +77,10 @@ const Hero = () => {
             variants={fadeUp}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
           >
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+          Full-stack web developer with expertise in both front-end and back-end technologies. I specialize in creating dynamic, responsive, and user-friendly web applications with clean, efficient code. My development approach focuses on performance, scalability, and maintainability.
+
           </motion.p>
 
-          {/* CTA */}
           <motion.div variants={fadeUp} className="pt-4">
             <motion.a
               href="#projects"

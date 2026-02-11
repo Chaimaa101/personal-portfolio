@@ -25,8 +25,7 @@ export const About = () => {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          {/* Text Column */}
-          <motion.div
+       <motion.div
             className="space-y-6"
             initial="hidden"
             whileInView="visible"
@@ -39,16 +38,13 @@ export const About = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              With over 4 years of experience in web development, I specialize
               in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+          Beyond coding, I'm a continuous learner who stays updated with the latest industry trends and technologies. I thrive in collaborative environments and enjoy working on projects that challenge me to grow as a developer. My goal is to create software that not only meets requirements but exceeds expectations in functionality and user experience.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -57,21 +53,20 @@ export const About = () => {
               </a>
 
               <a
-                href=""
+                href="/Chaimaa-Akir(Francais).pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
               </a>
             </div>
           </motion.div>
-
-          {/* Cards Column */}
+          
           <div className="grid grid-cols-1 gap-6">
             {[
               {
                 icon: <Code className="h-6 w-6 text-primary" />,
-                title: "Web Development",
-                desc: "Creating responsive websites and web applications with modern frameworks.",
+                title: "Full-Stack Web Development",
+                desc: "Building scalable web applications using Laravel, React, and modern web technologies.",
               },
               {
                 icon: <User className="h-6 w-6 text-primary" />,
