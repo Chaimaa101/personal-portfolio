@@ -59,10 +59,19 @@ const Navbar = () => {
       )}
     >
       <div className="mx-auto grid grid-cols-3 px-4 container">
-        <a href="#hero" className="text-xl font-bold tracking-wide">
-          <span className="text-foreground">Chaimaa</span>{" "}
-          <span className="text-primary">Portfolio</span>
-        </a>
+        <a
+  href="#hero"
+  className="flex items-center gap-2 text-xl font-bold tracking-wide"
+>
+  <img
+    src="/logo.png"
+    alt="logo"
+    className="w-10 h-10 object-contain"
+  />
+
+  <span className="text-foreground">Chaimaa</span>
+  <span className="text-primary">Portfolio</span>
+</a>
 
         <motion.div
           className="hidden md:flex justify-center space-x-8 ml-32"
