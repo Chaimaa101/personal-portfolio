@@ -14,7 +14,7 @@ const projects = [
     id: 1,
     title: "EasyRent ",
     description: "Complete Car Rental Platform with Real-time Management & Payment Processing",
-    image: "/placeholder.png",
+    image: "/easyrent.png",
     tags: ["React",  "Laravel","Stripe"],
     demoUrl: "#",
     githubUrl: "https://github.com/Chaimaa101/Projet-Fil-Rouge-EasyRent.git",
@@ -24,20 +24,21 @@ const projects = [
     title: "OPTISTORE",
     description:
       "Sleek and modern eCommerce platform designed for selling high-quality eyewear.",
-    image: "/placeholder.png",
+    image: "/optistore.png",
     tags: ["Laravel", "ReactJs", "InertiaJs"],
     demoUrl: "#",
     githubUrl: "https://github.com/Chaimaa101/OPTISTORE.git",
   },
   {
     id: 3,
-    title: "Podcast-Finder ",
+    title: "Invoicify ",
     description:
-      "Platform that allowing users to search, listen and discover podcasts according to their interests.",
-    image: "/placeholder.png",
-    tags: ["Laravel", "API", "Axios"],
+      "Intuitive invoice management system that helps users easily manage their invoices.",
+    image: "/invoicify.png",
+    tags: ["Laravel", "React.js", "InertiaJs"],
     demoUrl: "#",
-    githubUrl: "https://github.com/Chaimaa101/Podcast_Finder.git",
+    githubUrl: "https://github.com/Chaimaa101/Invoicify.git",
+    
   }, {
     id: 4,
     title: "Timyo",
@@ -49,13 +50,13 @@ const projects = [
     githubUrl: "https://github.com/Chaimaa101/Timyo.git",
   }, {
     id: 5,
-    title: "Invoicify ",
+    title: "Podcast-Finder ",
     description:
-      "Intuitive invoice management system that helps users easily manage their invoices.",
+      "Platform that allowing users to search, listen and discover podcasts according to their interests.",
     image: "/placeholder.png",
-    tags: ["Laravel", "React.js", "InertiaJs"],
+    tags: ["Laravel", "API", "Axios"],
     demoUrl: "#",
-    githubUrl: "https://github.com/Chaimaa101/Invoicify.git",
+    githubUrl: "https://github.com/Chaimaa101/Podcast_Finder.git",
   },
 ];
 

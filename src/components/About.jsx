@@ -38,8 +38,7 @@ export const About = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 4 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
+            Specialize in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
