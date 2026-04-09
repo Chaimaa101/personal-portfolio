@@ -25,7 +25,7 @@ export const About = () => {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-       <motion.div
+          <motion.div
             className="space-y-6"
             initial="hidden"
             whileInView="visible"
@@ -38,12 +38,17 @@ export const About = () => {
             </h3>
 
             <p className="text-muted-foreground">
-            Specialize in creating responsive, accessible, and performant web
+              Specialize in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
-          Beyond coding, I'm a continuous learner who stays updated with the latest industry trends and technologies. I thrive in collaborative environments and enjoy working on projects that challenge me to grow as a developer. My goal is to create software that not only meets requirements but exceeds expectations in functionality and user experience.
+              Beyond coding, I'm a continuous learner who stays updated with the
+              latest industry trends and technologies. I thrive in collaborative
+              environments and enjoy working on projects that challenge me to
+              grow as a developer. My goal is to create software that not only
+              meets requirements but exceeds expectations in functionality and
+              user experience.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -52,14 +57,14 @@ export const About = () => {
               </a>
 
               <a
-                href="/Chaimaa-Afkir(Francais).pdf"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                href="/Chaimaa-Afkir-CV.pdf"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 inline-block text-center"
               >
                 Download CV
               </a>
             </div>
           </motion.div>
-          
+
           <div className="grid grid-cols-1 gap-6">
             {[
               {
@@ -88,7 +93,9 @@ export const About = () => {
                 variants={cardVariants}
               >
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-full bg-primary/10">{card.icon}</div>
+                  <div className="p-3 rounded-full bg-primary/10">
+                    {card.icon}
+                  </div>
                   <div className="text-left">
                     <h4 className="font-semibold text-lg">{card.title}</h4>
                     <p className="text-muted-foreground">{card.desc}</p>
