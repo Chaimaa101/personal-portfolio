@@ -1,16 +1,13 @@
 import { motion } from "framer-motion";
 
 const experiences = [
- 
-  
   {
     title: "IT Teacher Intern",
     company: "Private School AL OUMRANE",
     period: "2024",
     logo: "/oumrane.png",
     place: "Sidi Maarouf",
-    description:
-      "Taught programming fundamentals to middle school students.",
+    description: "Taught programming fundamentals to middle school students.",
   },
   {
     title: "Frontend Development Intern",
@@ -21,16 +18,24 @@ const experiences = [
     description:
       "Designed and developed a corporate showcase website presenting the company’s services..",
   },
-   {
+  {
     title: "Frontend Development Intern",
     company: "Learning Tech",
     period: "June 2022",
-    logo: "/learningtech.png", 
+    logo: "/learningtech.png",
     place: "CasaNearShore",
     description:
       "Created and integrated various application pages (home, courses, contact, etc.)",
   },
-
+  {
+    title: "Full Stack Development Intern",
+    company: "Elmanager Cloud",
+    period: "September 2026 - Present",
+    logo: "/ElmanagerCloud.png",
+    place: "Casabnca",
+    description:
+      "Developed and integrated application pages, implemented new features, fixed bugs, and contributed to testing and improving the application.",
+  },
 ];
 
 export const Experience = () => {
@@ -52,7 +57,6 @@ export const Experience = () => {
               whileHover={{ y: -5 }}
               className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-primary/20 transition"
             >
-              
               <div className="w-40 h-40 mb-3 mx-auto rounded-xl bg-secondary flex items-center justify-center overflow-hidden">
                 <img
                   src={item.logo}
